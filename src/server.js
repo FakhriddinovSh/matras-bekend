@@ -16,5 +16,5 @@ app.use(express.static(path.join(__dirname, 'uploads')));
 app.use('/static', express.static('uploads'));
 
 app.listen(1212, () => {
-	console.log(`http://localhost:1212`);
+	console.log(`Deployed successfully !`);
 });
